@@ -48,6 +48,7 @@ h2 {
 
 p {
     font-size: 32px;
+    padding: 50px 0;
 }
 
 .bold {
@@ -59,7 +60,17 @@ h3  {
     font-weight: 200;
 }
 
-footer p {
+.imgs {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+footer p, footer a {
     font-size: 20px;
-    padding-bottom: 20px;
+    padding-top: 0px;
+    color: #fff;
 }
